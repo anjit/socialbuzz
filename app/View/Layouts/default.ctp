@@ -55,10 +55,7 @@ echo $this->Html->css('/assets/admin/layout/css/custom.css');
 <!-- DOC: Apply "page-sidebar-reversed" class to put the sidebar on the right side -->
 <!-- DOC: Apply "page-full-width" class to the body element to have full width page without the sidebar menu -->
 		<div id="content">
-
-			<?php echo $this->Session->flash(); ?>
-
-			<?php echo $this->fetch('content'); ?>
+<?php echo $this->fetch('content'); ?>
 		</div>
 		<!-- BEGIN COPYRIGHT -->
 <div class="copyright">
